@@ -20,7 +20,7 @@ Sample Output: 5 4 3 2 1
 
 
 */
-
+///doubt hai question m bad m dekhti hun   
 #include<bits/stdc++.h>
 using namespace std;
 void swap(int *a,int *b)
