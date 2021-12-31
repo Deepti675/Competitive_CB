@@ -1,4 +1,4 @@
-//set bit,get bit ,odd number or not with the help of and and or operator
+//set bit,get bit ,odd number or not with the help of & and | operator
 #include <iostream>
 
 using namespace std;
