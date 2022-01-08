@@ -1,4 +1,7 @@
-//Good Subarrays or Divisible Subarray
+//Good Subarrays or Divisible Subarray    
+
+//  (link of problem --> https://hack.codingblocks.com/app/practice/3/1065/problem)
+
 //good subarray are those subarrays which sum of elements are divisible by size are array
 //using brute force TLE will come because size of N is very large 
 //So we will use pigeonhole priciple(atleast one hole will contain atleast two pigeon)
