@@ -1,13 +1,13 @@
-link- https://codeforces.com/problemset/problem/1244/C
+//link- https://codeforces.com/problemset/problem/1244/C
 #include<bits/stdc++.h>
 using namespace std;
 long long n,p,d,w;
 long long x,y;
 int main(){
-    cin>>n>>p>>d>>w;
-    for(y=0;y<=d;y++){
-        if((p-w*y)%d==0){
-            x=(p-w*y)/d;
+    cin>>n>>p>>w>>d;
+    for(y=0;y<=w;y++){
+        if((p-d*y)%w==0){
+            x=(p-d*y)/w;
             if(x>=0&&y>=0&&x+y<=n){
                 cout<<x<<" "<<y<<" "<<n-x-y;
                 return 0;
