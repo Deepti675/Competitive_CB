@@ -13,6 +13,7 @@ public:
             a1.insert(3*m);
             a1.insert(5*m);
         }
+        //rbegin() is a built-in function in C++ STL which returns a reverse iterator pointing to the last element in the container.
         return *a2.rbegin();
     }
 };
