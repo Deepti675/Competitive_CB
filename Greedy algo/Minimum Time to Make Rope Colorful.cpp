@@ -29,3 +29,30 @@ public:
         return res;
     }
 };
+
+
+
+##########################################
+
+
+class Solution {
+public:
+    int minCost(string col, vector<int>& nee) {
+       int i=0,j=0;
+       int tt=0;
+        int n=col.size();
+        while(i<n && j<n){
+            int mt=0,ct=0;
+            while(j<n && col[i]==col[j])
+            {
+                mt= max(mt,nee[j]);
+                ct+=nee[j];
+                j++;
+            }
+            i=j;
+            tt+=(ct-mt);
+        }
+        return tt;
+    }
+};
+
